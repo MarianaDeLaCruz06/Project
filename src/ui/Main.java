@@ -45,9 +45,9 @@ public class Main{
                     RegisterProject();
                     break;
                 case 2:
-					System.out.println("Digite la opcion segun lo que desea consultar");
-					System.out.println("1. Consultar proyectos que finalizan despues de una fecha");
-					System.out.println("2. Consultar proyectos que inician antes de una fecha");
+					System.out.println("Type the option according to what you want to consult");
+					System.out.println("1. Consult projects that end after a date");
+					System.out.println("2. Consult projects that start before a date");
 					decition = reader.nextInt();
 
 					if (decition == 1){
@@ -85,9 +85,9 @@ public class Main{
     	String clientName = reader.next();
 
 		System.out.print("Type of proyect ");
-        System.out.print("1. Desarrollo ");
-		System.out.print("2. Mantenimiento");
-		System.out.print("3. Despliegue ");
+        System.out.print("1. Development ");
+		System.out.print("2. Maintenance");
+		System.out.print("3. Deployment ");
 		int typeProject = reader.nextInt();
 
 
